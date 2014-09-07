@@ -4,7 +4,16 @@
 	background-repeat:no-repeat;
 	
 	}
+.class1{
+	text-indent:5%;
+    color:rgb(255,0,128);
+	font-family:Verdana;
+	font-size:200%;
+	}
+	
 #footer{
+	color:rgb(255,0,128);
+	font-family:Verdana;
 	position:fixed;
 	bottom:0;
 	width:100%;
