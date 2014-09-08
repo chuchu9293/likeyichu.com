@@ -1,16 +1,18 @@
+/*设置背景*/
 #id1{
 	background-image:url(../img/wallpaper.jpg);
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	
 	}
+/*Verdana，粉红字体*/
 .class1{
 	text-indent:5%;
     color:rgb(255,0,128);
 	font-family:Verdana;
 	font-size:200%;
 	}
-	
+/*页脚*/
 #footer{
 	color:rgb(255,0,128);
 	font-family:Verdana;
@@ -18,5 +20,9 @@
 	bottom:0;
 	width:100%;
 	text-align:center;
+	}
+/*页脚中版权声明以外的为黑色*/
+#id2{
+	color:black;
 	}
 	
