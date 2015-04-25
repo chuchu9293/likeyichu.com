@@ -12,6 +12,7 @@ $.ajax({
     url: "http://115.28.88.165/webService/me/isAvailable",
    // data: {username:$("#username").val(), content:$("#content").val()},
     dataType: "text",
+    timeout: 1234,
     success: function(data){
     	if(date=="true")
     		window.location.href="http://me.likeyichu.com/me/index.html";
