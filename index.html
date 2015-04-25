@@ -14,7 +14,8 @@ $.ajax({
     dataType: "text",
     timeout: 1234,
     success: function(data){
-    	if(date=="true")
+	console.log(data);
+    	if(data=="true")
     		window.location.href="http://me.likeyichu.com/me/index.html";
     	else
     		window.location.href="http://www.likeyichu.com/indexGit.html";
