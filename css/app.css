@@ -7,7 +7,6 @@
 	border-top-style: dotted;
 	border-top-width: 0.2em;
 	text-align: center;
-	
 }
 /*派生选择器*/
 div .text {
@@ -24,4 +23,21 @@ div .text {
 	width: 100%;
 	height: 100%;
 	z-index: -1
+}
+
+/*标语*/
+.saying {
+	font-size:2em;
+	font-family:verdana;
+	opacity: 1;
+	color:rgb(0,255,0);
+	font-weight:bold;
+	padding-top:30%;
+}
+
+#showCountDownID{
+	font-size:0.5em;
+	font-family:verdana;
+	color:rgb(0,255,0);
+	font-weight:normal;
 }
